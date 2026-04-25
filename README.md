@@ -99,19 +99,19 @@ The frontend currently includes product-shaped placeholder pages and flows to va
 ![Course Page](docs/screenshots/course-page.png)
 
 ### My Learning
-![My Learning](docs/screenshots/my-learning)
+![My Learning](docs/screenshots/my-learning.png)
 
 ### Quiz
-![Quiz](docs/screenshots/quiz)
+![Quiz](docs/screenshots/quiz.png)
 
 ### Author Dashboard
-![Author Dashboard](docs/screenshots/author-dashboard)
+![Author Dashboard](docs/screenshots/author-dashboard.png)
 
 ### Course Builder
-![Course Builder](docs/screenshots/ourse-builder)
+![Course Builder](docs/screenshots/ourse-builder.png)
 
 ### Cart & Checkout
-![Cart and Checkout](docs/screenshots/cart-and-checkout)
+![Cart and Checkout](docs/screenshots/cart-and-checkout.png)
 
 ---
 
