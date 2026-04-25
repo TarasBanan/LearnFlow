@@ -1,0 +1,12 @@
+{
+  "name": "learnflow",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm -r build",
+    "test": "pnpm --filter web test",
+    "lint": "pnpm --filter web lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
