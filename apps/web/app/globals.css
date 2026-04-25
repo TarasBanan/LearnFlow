@@ -31,9 +31,9 @@ a {
 
 .top-nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 12px;
+  align-items: center;
+  gap: 16px;
   border-bottom: 1px solid var(--hairline-gray);
   padding-bottom: 16px;
   margin-bottom: 24px;
@@ -53,6 +53,7 @@ a {
   background: var(--canvas-white);
   color: var(--ink-black);
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .pill-primary {
@@ -77,6 +78,12 @@ a {
   background: var(--canvas-white);
 }
 
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+
 .card h3 {
   margin-top: 0;
   font-size: 20px;
@@ -85,6 +92,14 @@ a {
 
 .muted {
   color: var(--ash-gray);
+}
+
+.description-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 12px;
 }
 
 .section-title {
@@ -96,7 +111,12 @@ a {
 .button-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px;
+}
+
+.card-actions {
+  margin-top: auto;
 }
 
 .stack-lg {
@@ -122,4 +142,26 @@ a {
   padding-left: 18px;
   display: grid;
   gap: 8px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.builder-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input {
+  border: 1px solid var(--hairline-gray);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-width: 240px;
+  font-size: 14px;
+  color: var(--ink-black);
 }

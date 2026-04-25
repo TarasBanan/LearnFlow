@@ -1,35 +1,5 @@
 import Link from 'next/link';
-
-const catalogCourses = [
-  {
-    slug: 'react-from-zero',
-    title: 'React from Zero to Production',
-    category: 'Frontend',
-    price: '$79',
-    rating: '4.8'
-  },
-  {
-    slug: 'node-api-architecture',
-    title: 'Node.js API Architecture',
-    category: 'Backend',
-    price: '$89',
-    rating: '4.7'
-  },
-  {
-    slug: 'postgres-for-apps',
-    title: 'PostgreSQL for Product Apps',
-    category: 'Database',
-    price: '$69',
-    rating: '4.9'
-  },
-  {
-    slug: 'product-design-systems',
-    title: 'Product Design Systems',
-    category: 'Design',
-    price: '$59',
-    rating: '4.6'
-  }
-];
+import { courses } from '@/lib/courses';
 
 export default function CatalogPage() {
   return (
@@ -46,12 +16,12 @@ export default function CatalogPage() {
       </section>
 
       <section className="grid grid-3">
-        {catalogCourses.map((course) => (
-          <article className="card" key={course.slug}>
+        {courses.map((course) => (
+          <article className="card catalog-card" key={course.slug}>
             <h3>{course.title}</h3>
             <p className="muted">{course.category} · Rating {course.rating} · {course.price}</p>
-            <p className="muted">Project-based curriculum with milestones and review quizzes.</p>
-            <div className="button-row">
+            <p className="muted description-clamp">{course.shortDescription}</p>
+            <div className="button-row card-actions">
               <Link className="pill" href={`/course/${course.slug}`}>
                 Open course
               </Link>
