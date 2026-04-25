@@ -85,7 +85,6 @@ a {
 .catalog-card {
   display: flex;
   flex-direction: column;
-  min-height: 300px;
 }
 
 .card h3 {
