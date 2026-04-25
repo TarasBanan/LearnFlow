@@ -90,34 +90,31 @@ The frontend currently includes product-shaped placeholder pages and flows to va
 > This is a dedicated screenshot section with **rendered image links** for repository page preview.
 
 ### Home
-![Home](https://via.placeholder.com/1280x720?text=LearnFlow+Home)
+![Home](docs/screenshots/home.png)
 
 ### Catalog
-![Catalog](https://via.placeholder.com/1280x720?text=LearnFlow+Catalog)
+![Catalog](docs/screenshots/catalog.png)
 
 ### Course Page
-![Course Page](https://via.placeholder.com/1280x720?text=LearnFlow+Course+Page)
-
-### Lesson Player
-![Lesson Player](https://via.placeholder.com/1280x720?text=LearnFlow+Lesson+Player)
+![Course Page](docs/screenshots/course-page.png)
 
 ### My Learning
-![My Learning](https://via.placeholder.com/1280x720?text=LearnFlow+My+Learning)
+![My Learning](docs/screenshots/my-learning)
 
 ### Quiz
-![Quiz](https://via.placeholder.com/1280x720?text=LearnFlow+Quiz)
+![Quiz](docs/screenshots/quiz)
 
 ### Certificate
-![Certificate](https://via.placeholder.com/1280x720?text=LearnFlow+Certificate)
+![Certificate](docs/screenshots/certificate)
 
 ### Author Dashboard
-![Author Dashboard](https://via.placeholder.com/1280x720?text=LearnFlow+Author+Dashboard)
+![Author Dashboard](docs/screenshots/author-dashboard)
 
 ### Course Builder
-![Course Builder](https://via.placeholder.com/1280x720?text=LearnFlow+Course+Builder)
+![Course Builder](docs/screenshots/ourse-builder)
 
 ### Cart & Checkout
-![Cart and Checkout](https://via.placeholder.com/1280x720?text=LearnFlow+Cart+and+Checkout)
+![Cart and Checkout](docs/screenshots/cart-and-checkout)
 
 ---
 
