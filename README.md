@@ -104,9 +104,6 @@ The frontend currently includes product-shaped placeholder pages and flows to va
 ### Quiz
 ![Quiz](docs/screenshots/quiz)
 
-### Certificate
-![Certificate](docs/screenshots/certificate)
-
 ### Author Dashboard
 ![Author Dashboard](docs/screenshots/author-dashboard)
 
