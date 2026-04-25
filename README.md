@@ -108,7 +108,7 @@ The frontend currently includes product-shaped placeholder pages and flows to va
 ![Author Dashboard](docs/screenshots/author-dashboard.png)
 
 ### Course Builder
-![Course Builder](docs/screenshots/ourse-builder.png)
+![Course Builder](docs/screenshots/course-builder.png)
 
 ### Cart & Checkout
 ![Cart and Checkout](docs/screenshots/cart-and-checkout.png)
