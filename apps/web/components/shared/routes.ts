@@ -18,7 +18,7 @@ export const homeCards: RouteItem[] = [
   {
     href: '/quiz/react-basics',
     title: 'Quiz Center',
-    description: 'Take timed quizzes and review your scores.'
+    description: 'Take working quizzes and review detailed results.'
   },
   {
     href: '/author/dashboard',

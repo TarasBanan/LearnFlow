@@ -1,3 +1,5 @@
+# LearnFlow
+
 LearnFlow is an EdTech platform MVP for online learning with video lessons, quizzes, certificates, progress tracking, and an author workspace.
 
 ---
@@ -180,3 +182,4 @@ node apps/web/scripts/dev-args-check.mjs
 - Implement payment flow and webhook-driven enrollment
 - Implement lesson progress persistence and certificate generation
 - Add e2e tests for key user journeys
+
