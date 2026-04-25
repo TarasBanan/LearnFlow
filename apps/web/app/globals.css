@@ -1,0 +1,170 @@
+:root {
+  --canvas-white: #ffffff;
+  --soft-cloud: #f7f7f7;
+  --ink-black: #222222;
+  --ash-gray: #6a6a6a;
+  --hairline-gray: #dddddd;
+  --rausch: #ff385c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Circular, -apple-system, system-ui, Roboto, 'Helvetica Neue', sans-serif;
+  background: var(--canvas-white);
+  color: var(--ink-black);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--hairline-gray);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid var(--hairline-gray);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--canvas-white);
+  color: var(--ink-black);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pill-primary {
+  background: var(--rausch);
+  border-color: var(--rausch);
+  color: var(--canvas-white);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  border: 1px solid var(--hairline-gray);
+  border-radius: 14px;
+  padding: 20px;
+  background: var(--canvas-white);
+}
+
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.muted {
+  color: var(--ash-gray);
+}
+
+.description-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-actions {
+  margin-top: auto;
+}
+
+.stack-lg {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-card h1 {
+  margin: 8px 0;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash-gray);
+  margin: 0;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.builder-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input {
+  border: 1px solid var(--hairline-gray);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-width: 240px;
+  font-size: 14px;
+  color: var(--ink-black);
+}
