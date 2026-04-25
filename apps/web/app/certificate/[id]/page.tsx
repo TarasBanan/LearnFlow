@@ -1,15 +1,18 @@
-import { FeaturePanel } from '@/components/ui/FeaturePanel';
+import Link from 'next/link';
 
 export default function CertificatePage({ params }: { params: { id: string } }) {
   return (
-    <FeaturePanel
-      title={`Сертификат: ${params.id}`}
-      description="Просмотр сертификата и экспорт в PDF после завершения курса."
-      actions={[
-        { label: 'Скачать PDF' },
-        { label: 'Проверить сертификат', href: `/certificate/${params.id}?verify=true` },
-        { label: 'Вернуться в мои курсы', href: '/my-courses' }
-      ]}
-    />
+    <div className="stack-lg">
+      <section className="card hero-card">
+        <p className="eyebrow">Certificate</p>
+        <h1>Certificate #{params.id}</h1>
+        <p className="muted">Completion badge, verification link, and PDF export placeholder.</p>
+        <div className="button-row">
+          <button className="pill pill-primary" type="button">Download PDF</button>
+          <Link className="pill" href={`/certificate/${params.id}?verify=true`}>Verify certificate</Link>
+          <Link className="pill" href="/my-courses">Back to my learning</Link>
+        </div>
+      </section>
+    </div>
   );
 }

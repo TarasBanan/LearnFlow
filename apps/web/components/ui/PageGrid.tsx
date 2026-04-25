@@ -1,17 +1,17 @@
 import Link from 'next/link';
-import { routeItems } from '@/components/shared/routes';
+import { homeCards } from '@/components/shared/routes';
 
 export function PageGrid() {
   return (
     <section>
-      <h2 className="section-title">Страницы</h2>
+      <h2 className="section-title">Quick access</h2>
       <div className="grid grid-3">
-        {routeItems.map((page) => (
+        {homeCards.map((page) => (
           <article key={page.href} className="card">
             <h3>{page.title}</h3>
             <p className="muted">{page.description}</p>
             <Link className="pill" href={page.href}>
-              Открыть
+              Open
             </Link>
           </article>
         ))}

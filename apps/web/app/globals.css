@@ -50,6 +50,9 @@ a {
   padding: 10px 16px;
   font-size: 14px;
   font-weight: 500;
+  background: var(--canvas-white);
+  color: var(--ink-black);
+  cursor: pointer;
 }
 
 .pill-primary {
@@ -70,7 +73,7 @@ a {
 .card {
   border: 1px solid var(--hairline-gray);
   border-radius: 14px;
-  padding: 16px;
+  padding: 20px;
   background: var(--canvas-white);
 }
 
@@ -87,11 +90,36 @@ a {
 .section-title {
   font-size: 22px;
   font-weight: 600;
-  margin: 24px 0 12px;
+  margin: 0 0 12px;
 }
 
 .button-row {
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
+}
+
+.stack-lg {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-card h1 {
+  margin: 8px 0;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash-gray);
+  margin: 0;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
   gap: 8px;
 }
