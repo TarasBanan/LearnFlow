@@ -45,6 +45,10 @@ a {
 }
 
 .pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
   border: 1px solid var(--hairline-gray);
   border-radius: 999px;
   padding: 10px 16px;

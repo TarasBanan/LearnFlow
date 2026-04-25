@@ -32,7 +32,7 @@ export default function HomePage() {
               <p className="muted">{course.level} · {course.duration} · {course.lessons} lessons</p>
               <p className="muted description-clamp">{course.shortDescription}</p>
               <Link className="pill" href={`/course/${course.slug}`}>
-                View course
+                Details
               </Link>
             </article>
           ))}
