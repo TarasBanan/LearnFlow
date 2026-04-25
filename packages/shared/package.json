@@ -1,0 +1,11 @@
+{
+  "name": "@learnflow/shared",
+  "private": true,
+  "scripts": {
+    "build": "echo 'shared build placeholder'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "5.7.2"
+  }
+}
